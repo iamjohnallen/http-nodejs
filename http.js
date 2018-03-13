@@ -2,6 +2,7 @@
 
 var express = require('express')
 var app = express()
+// Checks same folder for index.html
 app.use(express.static(__dirname))
 
 // Example of a custom url
